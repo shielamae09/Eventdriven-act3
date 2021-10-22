@@ -1,10 +1,12 @@
 .main-container {
     height: 100%;
+}
   
-    mat-sidenav {
+    .mat-sidenav {
       background: #673ab7;
       color: #fff;
       padding: 10px 20px 20px;
+    }
   
       .closeBtn {
         display: flex;
@@ -19,16 +21,14 @@
         width: 200px;
         margin-bottom: 5px;
         text-align: start;
-  
-        mat-icon {
+      }
+        .mat-icon {
           margin-right: 10px;
         }
-      }
-    }
   
     mat-sidenav-content {
       
-      
+    }
       mat-toolbar {
         display: flex;
         justify-content: space-between;
@@ -37,5 +37,3 @@
       .app-content {
        padding: 20px;
       }
-    }
-  }

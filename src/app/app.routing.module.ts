@@ -6,7 +6,7 @@ import { GalleryComponent } from './pages/gallery/gallery.component';
 import { ProfileComponent } from './pages/profile/profile.component';
 
 const routes: Routes = [
-  {path:'home', component:HomeComponent},
+  {path:'', component:HomeComponent},
   {path:'gallery',component:GalleryComponent},
   {path:'profile',component:ProfileComponent},
   {path:'**',component:HomeComponent},
