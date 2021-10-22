@@ -1,0 +1,46 @@
+<mat-card class="home-mobile-card">
+  <mat-card-header>
+    <div mat-card-avatar class="home-header-image"></div>
+    <mat-card-title>Christian Paranas</mat-card-title>
+    <mat-card-subtitle>Student</mat-card-subtitle>
+  </mat-card-header>
+  <img mat-card-image src="https://eventdriven-act2.vercel.app/assets/imgs/Lorem.jpg" alt="Photo of a Shiba Inu">
+  <mat-card-content>
+    <p>
+      Hello, I am Christian R. Paranas BSIT 3E
+    </p>
+    <mat-divider></mat-divider>
+    <div class="inf qq"><mat-icon>face</mat-icon>22 years old</div>
+    <div class="inf ee"><mat-icon>room</mat-icon>Tacloban City</div>
+    <mat-chip-list class="chip">
+      <mat-chip>React</mat-chip>
+      <mat-chip>Vue</mat-chip>
+      <mat-chip color="primary" selected>Angular</mat-chip>
+      <mat-chip color="secondary" selected>Node</mat-chip>
+    </mat-chip-list>
+  </mat-card-content>
+
+</mat-card>
+
+
+<mat-card class="home-desk-card">
+  <mat-card-title-group>
+    <mat-card-title>Christian Paranas</mat-card-title>
+    <mat-card-subtitle>Student</mat-card-subtitle>
+    <img mat-card-lg-image mat-card-avatar src="https://avatars.githubusercontent.com/u/59472122?v=4" >
+  </mat-card-title-group>
+  <mat-card-content>
+    <p>
+      Hello, I am Christian R. Paranas BSIT 3E
+    </p>
+    <mat-divider></mat-divider>
+    <div class="inf qq"><mat-icon>face</mat-icon>22 years old</div>
+    <div class="inf ee"><mat-icon>room</mat-icon>Tacloban City</div>
+    <mat-chip-list class="chip">
+      <mat-chip>React</mat-chip>
+      <mat-chip>Vue</mat-chip>
+      <mat-chip color="primary" selected>Angular</mat-chip>
+      <mat-chip color="secondary" selected>Node</mat-chip>
+    </mat-chip-list>
+  </mat-card-content>
+</mat-card>
