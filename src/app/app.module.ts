@@ -9,7 +9,7 @@ import { Routes } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from '.app/pages/home/home.component';
 import { GalleryComponent } from '.app/pages/gallery/gallery.component';
-import { ProfileComponent } from '.app/pages/profile/profile.component';
+import { ContactComponent } from '.app/pages/contact/contact.component';
 
 const routes: Routes =[
   {path: "home", component: HomeComponent},
@@ -20,6 +20,9 @@ const routes: Routes =[
   declarations: [
     AppComponent,
     HomeComponent,
+    HomeComponent,
+    ContactComponent,
+    GalleryComponent,
    
   ],
   imports: [
