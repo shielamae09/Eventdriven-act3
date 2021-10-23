@@ -1,0 +1,36 @@
+<mat-toolbar>
+    <mat-button-toggle-group #group="matButtonToggleGroup">
+        <mat-button-toggle value="left" aria-label="Text align left">
+          <mat-icon (click)='isToggle=!isToggle'>format_align_left</mat-icon>
+        </mat-button-toggle>
+    </mat-button-toggle-group>
+    <span>My App</span>
+</mat-toolbar>
+
+<mat-list *ngIf='isToggle'>
+
+    <a routerLink=''>
+    <mat-list-item>
+        <mat-icon>home</mat-icon>
+        <p>Home</p>
+    </mat-list-item>
+    </a>
+
+    <mat-divider></mat-divider>
+
+        <a routerLink='/contact'>
+        <mat-list-item>
+            <mat-icon>personal</mat-icon>
+            <p>Contact</p>
+        </mat-list-item>
+        </a>
+
+    <mat-divider></mat-divider>
+
+    <a routerLink='/gallery'>
+    <mat-list-item>
+        <mat-icon>image</mat-icon>
+        <p>Gallery</p>
+    </mat-list-item>
+    </a>
+</mat-list>
